@@ -35,8 +35,8 @@ func InitGeometry(d int, ell []int, bc string) {
 	case 4:
 		initD4()
 	}
-//	log.Println("Sono in InitGeometry e il volume è ", V)
-//	log.Println("Sono in InitGeometry e l'array di L è ", L)
+	log.Println("Sono in InitGeometry e il volume è ", V)
+	log.Println("Sono in InitGeometry e l'array di L è ", L)
 }
 
 func initD1() {
